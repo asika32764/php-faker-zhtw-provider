@@ -1,0 +1,14 @@
+{
+	"name": "asika/faker-zhtw",
+	"description": "A repository to hold PHP Faker zh_TW provider until Faker release new version.",
+	"homepage": "https://github.com/asika32764/php-faker-zhtw-provider",
+	"license": "GPLv3+",
+	"require": {
+		"fzaninotto/faker": "*@stable"
+	},
+	"autoload": {
+		"psr-4": {
+			"Faker\\Provider\\zh_TW\\": "src/"
+		}
+	}
+}
