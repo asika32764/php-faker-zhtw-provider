@@ -4,7 +4,7 @@ Currently [Faker](https://github.com/fzaninotto/Faker) has a [zh_TW provider](ht
 
 If we want to use zh_TW provider but do not hope to load unstable packages, we can use this repository instead, until Faker release a new version.
 
-The source is created by [Tz-Huan Huang](https://github.com/tzhuan)
+The source was created by [Tz-Huan Huang](https://github.com/tzhuan)
 
 2015-02-22
 
