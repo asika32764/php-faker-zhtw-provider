@@ -7,3 +7,13 @@ If we want to use zh_TW provider but do not hope to load unstable packages, we c
 The source is created by [Tz-Huan Huang](https://github.com/tzhuan)
 
 2015-02-22
+
+## Installation
+
+``` json
+{
+	"require": {
+		"asika/faker-zhtw": "*@stable"
+	}
+}
+```
