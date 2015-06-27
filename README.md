@@ -13,11 +13,11 @@ The source was created by [Tz-Huan Huang](https://github.com/tzhuan)
 ``` php
 $faker = \Faker\Factory::create('zh_TW');
 
-$faker->addProvider(new Faker\Provider\zh_TW\Address($faker));
-$faker->addProvider(new Faker\Provider\zh_TW\Company($faker));
-$faker->addProvider(new Faker\Provider\zh_TW\Person($faker));
-$faker->addProvider(new Faker\Provider\zh_TW\PhoneNumber($faker));
-$faker->addProvider(new Faker\Provider\zh_TW\Text($faker));
+$faker->addProvider(new \Faker\Provider\zh_TW\Address($faker));
+$faker->addProvider(new \Faker\Provider\zh_TW\Company($faker));
+$faker->addProvider(new \Faker\Provider\zh_TW\Person($faker));
+$faker->addProvider(new \Faker\Provider\zh_TW\PhoneNumber($faker));
+$faker->addProvider(new \Faker\Provider\zh_TW\Text($faker));
 
 foreach (range(1, 50) as $i)
 {
